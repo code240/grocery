@@ -4,3 +4,13 @@ const hideTop = () => {
     document.getElementById("side-inside-mainHeader").style.paddingTop= "0.5rem";
 
 }
+const show_nav = () => {
+    document.getElementById("ShowBar").style.display = "none";
+    document.getElementById("CutBar").style.display = "block";
+    document.getElementById("mobiNav").style.display = "block";
+}
+const hide_nav = () => {
+    document.getElementById("ShowBar").style.display = "block";
+    document.getElementById("CutBar").style.display = "none";
+    document.getElementById("mobiNav").style.display = "none";
+}

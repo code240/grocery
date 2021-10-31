@@ -1299,7 +1299,12 @@ textarea:focus{
     #bars{
         display:block;
     }
-    
+    #CutBar{
+        display: none;
+    }
+    #ShowBar{
+        display: block;
+    }
     #lap-btn{
         display:none;
     }
@@ -1416,10 +1421,10 @@ textarea:focus{
         left: 20%;
         top:30%;
         background-color: rgba(8, 8, 8, 0.689);
-        width: 60%;   
+        width: 70%;   
         padding: 1rem;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
     .front-font-1{
         font-size: 2rem;
