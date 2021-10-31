@@ -781,7 +781,7 @@ textarea:focus{
 .footer-contact-wrapper{
     width: 100%;
     height:auto;
-    /* border: 1px solid rgb(15, 4, 4); */
+    /* border: 1px solid rgb(255, 0, 0); */
     padding-left: 5%;
     padding-right: 5%;
     display: flex;
@@ -1600,12 +1600,20 @@ textarea:focus{
     .for-logo-footer{
         width: 25%;
     }
+    .footer-wrapper{
+        padding: 0% 2% 0% 2%;
+    }
+    .footer-icon-wrap{
+        width: 28%;
+        text-align: left;
+    }
     .footer-part-1{
-        width: 100%;
+        width: 50%;
         text-align:left;
     }
     .footer-part-2{
-        margin-bottom: 1rem;
+        margin-bottom: 4rem;
+        padding-left: 5%;
     }
 }
 
