@@ -1369,7 +1369,8 @@ textarea:focus{
         border-bottom: 1px solid #eee;
     }
     .btn-track-mi{
-        background-color: #A7CF3B;
+        color: #A7CF3B;
+        font-weight: 500;
     }
     /* mobi nav over */
     .dbm-logo-wrapper{  
