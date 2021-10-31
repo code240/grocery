@@ -1,6 +1,12 @@
 #mobiNav{
     display: none;
 }
+#lap-btn{
+    display: inline-block;
+}
+#mobi-btn{
+    display:none;
+}
 #bars{
     display: none;
 }
@@ -1292,6 +1298,13 @@ textarea:focus{
     }
     #bars{
         display:block;
+    }
+    
+    #lap-btn{
+        display:none;
+    }
+    #mobi-btn{
+        display:inline-block;
     }
     .icon-line-bar{
         padding-top: 0.5rem;
