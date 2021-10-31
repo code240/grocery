@@ -1609,6 +1609,7 @@ textarea:focus{
     }
     .footer-part-1{
         width: 50%;
+        padding-left: 2%;
         text-align:left;
     }
     .footer-part-2{
