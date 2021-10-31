@@ -1466,11 +1466,16 @@ textarea:focus{
     .card-wrapper{
         height: auto;
         margin: 0 auto;
-        width: 80%;
-        float: none;
+        width: 50%;
+        float: left;
+        margin-left: 0;
+
         /* border: 1px solid rgb(75, 75, 75); */
-        box-shadow: 0px 0px 8px #555;
-        margin-bottom: 1rem;
+        /* box-shadow: 0px 0px 8px #555; */
+        margin-bottom: 0rem;
+    }
+    .card-image-wrapper{
+        height: 6rem;
     }
     .viewall-btn-wrapper{
         width: 100%;
