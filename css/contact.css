@@ -1,0 +1,205 @@
+body{
+    padding: 0;
+}
+.contact-header{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #ffffff;
+}
+.for-logo-contact{
+    height:4rem;
+    width: 15%;
+    margin-left:10%;
+    float: left;
+    /* border: 1px solid red; */
+}
+.logo-contactpage{
+    max-width: 100%;
+    height: 100%;
+}
+.div-for-btn-header{
+    height:4rem;
+    width: 40%;
+    margin-left:10%;
+    /* border: 1px solid red; */
+    float: right;
+    padding-top: 0.6rem;
+}
+.btn-contact-header{
+    margin-right: 2%;
+    font-weight: 500;
+    /* background-color: aqua; */
+    transition: 0.5s ease-in-out;
+}
+.btn-contact-header:hover{
+    background-color: aliceblue;
+}
+.active{
+    background-color: rgb(255, 255, 255);
+}
+.front-in-contact{
+    width: 100%;
+    height: 30rem;
+    /* border: 1px solid red; */
+    background: linear-gradient(rgba(0, 0, 0, 0.544),rgba(0, 0, 0, 0.544)),url('../rawMedia/contact-background2.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top: 1rem;
+}
+.h1-tag{
+    font-size: 3rem;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 4rem;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 0px 0px 5px #000;
+    font-weight: 400;
+}
+.para-inContact{
+    font-size: 1rem;
+    width: 40%;
+    color:#fff;
+    /* text-shadow: 0px 0px 5px #000; */
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+.contact-main{
+    width: 70%;
+    /* border: 1px solid rgb(214, 214, 214); */
+    height: auto;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    margin-top: -6rem;
+    background-color: #F1F3F6;
+}
+.left-main-contact{
+    /* border: 1px solid red; */
+    width: 40%;
+    height:40rem;
+    float: left;
+    /* background-color: #ffffff; */
+}
+.right-main-contact{
+    /* border: 1px solid red; */
+    width: 58.6%;
+    height:40rem;
+    float: right;
+    padding: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px rgb(190, 190, 190);
+
+}
+.top-in-left-main{
+    width: 100%;
+    height: 9rem;
+    box-shadow: 0px 0px 7px rgb(194, 194, 194);
+    background-color: #ffffff;
+}
+.bottom-in-left-main{
+    width: 100%;
+    height: 9rem;
+    margin-top: 20px;
+    box-shadow: 0px 0px 7px rgb(173, 173, 173);
+    background-color: #ffffff;
+}
+.left-for-logo-in-LeftMain{
+    width: 15%;
+    height: 9rem;
+    /* border: 1px solid red; */
+    float: left;
+    padding-top: 3rem;
+    padding-left: 7%;
+}
+.right-for-logo-in-LeftMain{
+    width: 79%;
+    height: 9rem;
+    /* border: 1px solid red; */
+    float: right;
+    padding-top: 1rem;
+}
+.call-logo-wrapper{
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 5rem;
+}
+.call-logo{
+    height: auto;
+    width: 100%;
+}
+.call-us-heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+}
+.call-number{
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-left: 1rem;
+    color: #269EDD;
+}
+.bottom-in-left-main2{
+    width: 100%;
+    height: 19.5rem;
+    margin-top: 20px;
+    box-shadow: 0px 0px 7px rgb(173, 173, 173);
+    background-color: #ffffff;
+}
+.location-frame{
+    background-color: #80c5007c;
+    width: 100%;
+    height: 100%;
+}
+.get-in-touch-heading{
+    font-size: 2.2rem;
+    padding: 1rem;
+    padding-bottom: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-div-in-contacts{
+    width: 80%;
+    margin: 0 auto;
+}
+.name-label{
+    font-size: 1rem;
+    display: block;
+    font-weight: 500;
+    margin-top: 1rem;   
+}
+.input-name-inContact{
+    padding: 7px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    display: block;
+    border: 1px solid #999;
+}
+.msg-textarea{
+    resize: none;
+    height: 7rem;
+}
+.inp-submit{
+    display: block;
+    padding-left: 35px;
+    padding-right:35px;
+    background-color: rgb(102, 170, 0);
+    margin: 0 auto;
+    margin-top: 1rem;
+    color: #fff;
+}
+.inp-submit:hover{
+    background-color: rgb(85, 141, 0);
+    color: #fff;
+}
+.footer{
+    margin-top: 3rem;
+}

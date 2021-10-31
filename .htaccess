@@ -1,0 +1,8 @@
+RewriteEngine on
+
+RewriteRule ^Shop shop.html [NC,L]
+RewriteRule ^Home index.html [NC,L]
+RewriteRule ^Product product.html [NC,L]
+RewriteRule ^Contact contact.html [NC,L]
+RewriteRule ^About about.html [NC,L]
+
