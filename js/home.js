@@ -14,3 +14,14 @@ const hide_nav = () => {
     document.getElementById("CutBar").style.display = "none";
     document.getElementById("mobiNav").style.display = "none";
 }
+const catNav_Show = () => {
+     document.getElementById("catNavBars").style.display = "none";
+     document.getElementById("catNavCut").style.display = "inline-block";
+     document.getElementById("cat-nav").style.display = "block";
+     
+}
+const catNav_Hide = () => {
+    document.getElementById("catNavBars").style.display = "inline-block";
+    document.getElementById("catNavCut").style.display = "none";
+    document.getElementById("cat-nav").style.display = "none";
+}

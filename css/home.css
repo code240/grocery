@@ -838,6 +838,9 @@ textarea:focus{
     .category-wrapper{
         width: 85%;
     }
+    .offer-line{
+        font-size: 2.2rem;
+    }
 }
 
 @media screen and (max-width:1080px){
@@ -967,6 +970,12 @@ textarea:focus{
         height:35rem;
         float: none;
         width: 100%;
+        background-color: 10px solid red;
+    }
+    .backgound-imageFront-wrapper{
+        background:linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.3)),url('https://3.bp.blogspot.com/-QwoOf_1BSmE/V09QDgaehmI/AAAAAAAABHs/enDOZJcy-Zkmh0gxIMcnVuUkFCyieYWFwCLcB/s1600/Supermarket-trolley-fille-014-Guardian.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .text-front-wrap{
         height: auto;
@@ -1615,6 +1624,12 @@ textarea:focus{
     .footer-part-2{
         margin-bottom: 4rem;
         padding-left: 5%;
+    }
+}
+@media screen and (max-width:360px) {
+    .footer-part-2{
+        margin-bottom: 6rem;
+        /* border: 1px solid red; */
     }
 }
 

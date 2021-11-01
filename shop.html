@@ -29,9 +29,11 @@
             </select>
         </div>
         <div class="btn-div-top">
-            <button class="btn btn-home-top">Home</button>
+            <button class="btn btn-home-top" onclick="window.location.assign('Home')">Home</button>
             <button class="btn btn-track-top">About</button>
             <button class="btn btn-track-top"><i class="fas fa-map-marked-alt"></i> Track us</button>
+            <button class="btn btn-track-top" id="catNavBars" onclick="catNav_Show()"><i class="fas fa-bars"></i></button>
+            <button class="btn btn-track-top" id="catNavCut" onclick="catNav_Hide()"><i class="fas fa-times"></i></button>
 
         </div>
         <div style="clear: both;"></div>
@@ -46,7 +48,7 @@
         </div>
     </div>
     <div class="main-body">
-        <nav class="nav-in-left">
+        <nav class="nav-in-left" id="cat-nav">
             <span class="nav-heading">Categories</span>
             <span class="nav-item nav-item-1">Cleaning and Household &#8250;</span>
             <span class="nav-item nav-item-1">Beauty & Hygine &#8250;</span>
@@ -110,7 +112,8 @@
                         Special offer
                     </span>
                     <div class="card-button-wrappers">
-                        <button class="btn-card-visit">Visit Store</button>
+                        <button class="btn-card-visit" id="lap-btn">Visit Store</button>
+                    <button class="btn-card-visit" id="mobi-btn"><i class="fas fa-store-alt"></i></button>
                         <button class="btn-card btn-card-call"><i class="fas fa-phone-alt"></i></button>
                         <button class="btn-card btn-card-message"><i class="far fa-comment-dots"></i></button>
                     </div>
@@ -160,7 +163,8 @@
                         Special offer
                     </span>
                     <div class="card-button-wrappers">
-                        <button class="btn-card-visit">Visit Store</button>
+                        <button class="btn-card-visit" id="lap-btn">Visit Store</button>
+                    <button class="btn-card-visit" id="mobi-btn"><i class="fas fa-store-alt"></i></button>
                         <button class="btn-card btn-card-call"><i class="fas fa-phone-alt"></i></button>
                         <button class="btn-card btn-card-message"><i class="far fa-comment-dots"></i></button>
                     </div>
@@ -209,7 +213,8 @@
                         Special offer
                     </span>
                     <div class="card-button-wrappers">
-                        <button class="btn-card-visit">Visit Store</button>
+                        <button class="btn-card-visit" id="lap-btn">Visit Store</button>
+                    <button class="btn-card-visit" id="mobi-btn"><i class="fas fa-store-alt"></i></button>
                         <button class="btn-card btn-card-call"><i class="fas fa-phone-alt"></i></button>
                         <button class="btn-card btn-card-message"><i class="far fa-comment-dots"></i></button>
                     </div>
@@ -258,7 +263,8 @@
                         Special offer
                     </span>
                     <div class="card-button-wrappers">
-                        <button class="btn-card-visit">Visit Store</button>
+                        <button class="btn-card-visit" id="lap-btn">Visit Store</button>
+                    <button class="btn-card-visit" id="mobi-btn"><i class="fas fa-store-alt"></i></button>
                         <button class="btn-card btn-card-call"><i class="fas fa-phone-alt"></i></button>
                         <button class="btn-card btn-card-message"><i class="far fa-comment-dots"></i></button>
                     </div>
@@ -309,7 +315,8 @@
                         Special offer
                     </span>
                     <div class="card-button-wrappers">
-                        <button class="btn-card-visit">Visit Store</button>
+                        <button class="btn-card-visit" id="lap-btn">Visit Store</button>
+                    <button class="btn-card-visit" id="mobi-btn"><i class="fas fa-store-alt"></i></button>
                         <button class="btn-card btn-card-call"><i class="fas fa-phone-alt"></i></button>
                         <button class="btn-card btn-card-message"><i class="far fa-comment-dots"></i></button>
                     </div>
@@ -359,7 +366,8 @@
                         Special offer
                     </span>
                     <div class="card-button-wrappers">
-                        <button class="btn-card-visit">Visit Store</button>
+                        <button class="btn-card-visit" id="lap-btn">Visit Store</button>
+                    <button class="btn-card-visit" id="mobi-btn"><i class="fas fa-store-alt"></i></button>
                         <button class="btn-card btn-card-call"><i class="fas fa-phone-alt"></i></button>
                         <button class="btn-card btn-card-message"><i class="far fa-comment-dots"></i></button>
                     </div>
@@ -408,7 +416,8 @@
                         Special offer
                     </span>
                     <div class="card-button-wrappers">
-                        <button class="btn-card-visit">Visit Store</button>
+                        <button class="btn-card-visit" id="lap-btn">Visit Store</button>
+                    <button class="btn-card-visit" id="mobi-btn"><i class="fas fa-store-alt"></i></button>
                         <button class="btn-card btn-card-call"><i class="fas fa-phone-alt"></i></button>
                         <button class="btn-card btn-card-message"><i class="far fa-comment-dots"></i></button>
                     </div>
@@ -457,7 +466,8 @@
                         Special offer
                     </span>
                     <div class="card-button-wrappers">
-                        <button class="btn-card-visit">Visit Store</button>
+                        <button class="btn-card-visit" id="lap-btn">Visit Store</button>
+                    <button class="btn-card-visit" id="mobi-btn"><i class="fas fa-store-alt"></i></button>
                         <button class="btn-card btn-card-call"><i class="fas fa-phone-alt"></i></button>
                         <button class="btn-card btn-card-message"><i class="far fa-comment-dots"></i></button>
                     </div>
@@ -497,7 +507,7 @@
                 <span class="footer-part-1-item">Regular offer</span><br/>
                 <span class="footer-part-1-item">Biscuit & Cookies</span><br/>
             </div>
-            <div class="footer-part-1">
+            <div class="footer-part-1 footer-part-2">
                 <h6 class="footer-heading">
                     Quick links
                 </h6>
