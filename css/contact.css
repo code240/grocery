@@ -1,3 +1,9 @@
+#mobiNav2{
+    display: none;
+}
+#bars-div{
+    display: none;
+}
 body{
     padding: 0;
 }
@@ -263,6 +269,53 @@ body{
     
 
 }
+
+@media screen and (max-width:625px) {
+    #mobiNav2{
+        display:none;
+    }
+    #bars-div{
+        display:block;
+    }
+    #cuts-contact{
+        display: none;
+    }
+    .nav-mobi{
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 60%;
+        height: 100%;
+        background-color: #ffffff;
+        padding-top:4rem;
+    }
+    .mobiNav-icons{
+        display: block;
+        font-size: 1.2rem;
+        line-height: 2.1rem;
+        border-bottom: 1px solid #eee;
+        padding-left: 16%;
+    }
+    
+    .for-logo-contact{
+        width: 50%;
+    }
+    .div-for-btn-header{
+        display: none;
+
+    }
+    .for-bars-div{
+        width: 30%;
+        float: right;
+        padding-top: 0.5rem;
+        padding-right: 1rem;
+    }
+    .for-bars-contact{
+        display: block;
+        font-size: 1.4rem;
+        text-align: right;
+    }
+}
 @media screen and (max-width:600px) {
     .h1-tag{
         font-size:2rem ;
@@ -363,5 +416,22 @@ body{
     .call-logo-wrapper{
         width:90% ;
         margin-left: 10%;
+    }
+    .form-div-in-contacts{
+        width: 90%;
+    }
+    .nav-mobi{
+        width: 70%;
+        padding-left: 0;
+        padding-top: 3rem;
+    }
+    .mobiNav-icons{
+        line-height: 2.3rem;
+    }
+
+}
+@media screen and (max-width:410px){
+    .nav-mobi{
+        width: 80%;
     }
 }

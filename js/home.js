@@ -25,3 +25,14 @@ const catNav_Hide = () => {
     document.getElementById("catNavCut").style.display = "none";
     document.getElementById("cat-nav").style.display = "none";
 }
+const showContactNav = () => {
+    document.getElementById("bars-contact").style.display = "none";
+    document.getElementById("cuts-contact").style.display = "block";
+    document.getElementById("mobiNav2").style.display = "block";
+}
+
+const hideContactNav = () => {
+    document.getElementById("bars-contact").style.display = "block";
+    document.getElementById("cuts-contact").style.display = "none";
+    document.getElementById("mobiNav2").style.display = "none";
+}
