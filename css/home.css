@@ -157,6 +157,7 @@
     top:11.5%;
     left:4%;
     position: absolute;
+    /* text-align: center; */
     box-shadow: 1px 1px 3px #999999;
     /* margin:12.5% 0% 0% 20%; */
     padding: 1rem 1rem 1rem 1rem;
@@ -166,6 +167,8 @@
     display: block;
     font-family:'Times New Roman', Times, serif;
     font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
 }
 .offDiv-front{
     width: 15rem;
