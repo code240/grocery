@@ -30,9 +30,11 @@
             </select>
         </div>
         <div class="btn-div-top">
-            <button class="btn btn-home-top">Home</button>
+            <button class="btn btn-home-top" onclick="window.location.assign('index.html')">Home</button>
             <button class="btn btn-track-top">About</button>
             <button class="btn btn-track-top"><i class="fas fa-map-marked-alt"></i> Track us</button>
+            <button class="btn btn-track-top" id="catNavBars" onclick="catNav_Show()"><i class="fas fa-bars"></i></button>
+            <button class="btn btn-track-top" id="catNavCut" onclick="catNav_Hide()"><i class="fas fa-times"></i></button>
 
         </div>
         <div style="clear: both;"></div>
@@ -47,7 +49,7 @@
         </div>
     </div>
     <div class="main-body">
-        <nav class="nav-in-left">
+        <nav class="nav-in-left" id="cat-nav">
             <span class="nav-heading">Categories</span>
             <span class="nav-item nav-item-1">Cleaning and Household &#8250;</span>
             <span class="nav-item nav-item-1">Beauty & Hygine &#8250;</span>
