@@ -1,0 +1,248 @@
+body{
+    background-color: #F0F2F5;
+    padding-top: 0;
+}
+.master{
+    /* border: 1px solid red; */
+    margin-top: 8.2rem;
+    height: auto;
+}
+.submaster-left{
+    margin-left:17%;
+    /* border: 1px solid red; */
+    width: 38%;
+    float: left;
+    height: auto;
+}
+.submaster-right{
+    /* border: 1px solid red; */
+    width: 30%;
+    height: auto;
+    float: left;
+    padding-left: 0.2rem;
+}
+.logo-wrap{
+    width: 100%;
+    height: auto;
+    padding-top: 3.6rem;
+    /* border: 1px solid red; */
+}
+
+.brand-heading{
+    font-size: 4rem;
+    cursor:default;
+    line-height: 4rem;
+    font-style: italic;
+    /* text-shadow: 1px 1px 3px #000; */
+    font-weight: 700;
+    letter-spacing: 1px;
+    color:rgb(0, 0, 0);
+    font-family: cursive;
+}
+.brand-m{
+    color:red;
+    font-style: italic;
+    /* text-shadow: 1px 1px 3px #433; */
+    font-weight: 800;
+}
+.brand-b{
+    font-style: italic;
+    /* text-shadow: 1px 1px 3px #433; */
+    color:red;
+    font-weight: 800;
+
+}
+.about-text-wrap{
+    height: auto;
+    padding-top: 0rem;
+}
+.mailbox-about{
+    font-size: 1.6rem;
+    display: block;
+    width: 81%;
+    font-family: sans-serif;
+}
+.login-master{
+    /* border: 1px solid red; */
+    height: 22rem;
+    width: 87%;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 15px #cacaca;
+    padding: 1rem;
+}
+.input-field{
+    width: 100%;
+    height: 3.3rem;
+    border-radius: 5px;
+    border: 0;
+    border: 1.5px solid #d3d5d8;
+    padding-left: 15px;
+    font-size: 1.1rem;
+}
+.input-field::placeholder{
+    color: #90949C;
+}
+.input-field:focus{
+    outline: 0;
+    border: 1px solid #1877F2;
+    box-shadow: 0px 0px 2px #1877F2;
+    
+}
+
+.i-2{
+    margin-top: 0.7rem;
+}
+.i-3{
+    margin-top: 1rem;
+}
+.input-submit{
+    background-color: #1877F2;
+    color:rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0;
+    height: 3rem;
+    transition: 0.1s ease-in-out;
+}
+.input-submit:hover{
+    background-color: #166ada;
+
+}
+.mailbox-login-text{
+    font-size: 0.9rem;
+    display: block;
+    padding-top: 0.7rem;
+    color:#1877F2;
+    text-align: center;
+    cursor: pointer;
+}
+.btn-create{
+    background-color: #42B72A;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 10px 15px;
+    transition: 0.3s ease;
+}
+.btn-create:hover{
+    background-color: #349122;
+    color:#fff;
+}
+.connect-text{
+    display: block;
+    width: 87%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+
+
+
+.register-master{
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width:1200px) {
+    .master{
+        margin-top: 6rem;
+    }
+    .submaster-left{
+        width: 38%;
+        margin-left: 13%;
+    }
+    .submaster-right{
+        width: 40%;
+    }
+}
+@media screen and (max-width:900px) {
+    .master{
+        margin-top: 6rem;
+    }
+    .submaster-left{
+        width: 35%;
+        margin-left: 10%;
+    }
+    .submaster-right{
+        width: 50%;
+    }
+}
+@media screen and (max-width:750px) {
+    .master{
+        margin-top: 6rem;
+    }
+    .submaster-left{
+        width: 40%;
+        margin-left: 4%;
+    }
+    .submaster-right{
+        width: 55%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .master{
+        margin-top: 6rem;
+    }
+    .submaster-left{
+        width: 45%;
+        margin-left: 2%;
+    }
+    .submaster-right{
+        width: 50%;
+    }
+    .login-master{
+        width: 100%;
+    }
+    .connect-text{
+        width: 100%;
+    }
+}
+@media screen and (max-width:550px) {
+    .brand-heading{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    body{
+        padding-bottom: 10rem;
+    }
+    .master{
+        margin-top: 2rem;
+    }
+    .submaster-left{
+        width: 100%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    .mailbox-about{
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    }
+    .logo-wrap{
+        padding-top: 0;
+    }
+    .submaster-right{
+        width: 100%;
+    }
+    .login-master{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:450px) {
+    .login-master{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .brand-heading{
+        font-size: 3rem;
+    }
+    .mailbox-about{
+        font-size: 1.2rem;
+    }
+}

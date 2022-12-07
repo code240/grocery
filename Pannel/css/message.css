@@ -1,0 +1,57 @@
+.message_wrapper{
+    /* border: 1px solid red; */
+    height: auto;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.message-card{
+    width:48.5%;
+    border: 1px solid rgb(224, 224, 224);
+    background-color: rgb(245, 254, 255);
+    /* box-shadow: 0px 0px 5px #999; */
+    float: left;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-bottom: 1%;
+}
+.sendername{
+    font-size:0.9rem;
+    font-weight: 500;
+    color: rgb(223, 0, 0);
+    display: block;
+}
+.senderemail{
+    font-size:0.95rem;
+    font-weight: 500;
+    color: rgb(128, 128, 128);
+    color: rgb(223, 0, 0);
+    display: block;
+}
+.subject{
+    font-size:1rem;
+    font-weight: 500;
+    display: block;
+}
+.subject-word{
+    color: rgb(0, 70, 221);
+    font-weight: 500;
+}
+.user-message{
+    font-size:1rem;
+    font-weight: 400;
+    display: block;
+}
+.btn-reply{
+    padding: 3px 8px 3px 8px;
+    display: block;
+    float: right;
+}
+
+@media screen and (max-width:880px) {
+    .message-card{
+        width: 98%;
+    }
+}

@@ -1,3 +1,7 @@
+a{
+    text-decoration: none;
+    color:#000;
+}
 #mobiNav{
     display: none;
 }
@@ -145,7 +149,7 @@
     background:linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.4)),url('../media/background.jpg');
     background:linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.1)),url('https://images.assetsdelivery.com/compings_v2/kwangmoo/kwangmoo1901/kwangmoo190100071.jpg');
     background:linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.1)),url('https://www.gannett-cdn.com/-mm-/a0a28bd666af6d80b33247a358069ae6b7ce0cc4/c=0-108-2121-1306/local/-/media/2016/07/22/USATODAY/USATODAY/636047914661198701-ThinkstockPhotos-467612138.jpg?width=660&height=373&fit=crop&format=pjpg&auto=webp');
-    background:linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.1)),url('https://static.onecms.io/wp-content/uploads/sites/23/2019/11/25/time-grocery-shop-1.jpg');
+    /* background:linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.1)),url('https://static.onecms.io/wp-content/uploads/sites/23/2019/11/25/time-grocery-shop-1.jpg'); */
     background-size: 100% 100%;
 }
 
@@ -379,6 +383,7 @@
 }
 .offer-type{
     font-size: 0.8rem;
+    line-height: 0.9rem;
     color: #929292;
     width: 92%;
     margin: 0 auto;
@@ -837,12 +842,191 @@ textarea:focus{
     padding-bottom: 14px;
     text-align: center;
 }
+
+
+/* chat room */
+
+.for-chat-wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.712);
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 10;
+}
+.chat-inner-wrapper{
+    background-color: #ffffff;
+    padding:1rem ;
+    position: fixed;
+    width: 30%;
+    border-radius: 10px;
+    margin: 0;
+    top:1rem;
+    left:35%;
+}
+.ask-chat{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+#chatroom{
+    display: none;
+}
+#messageroom{
+    display: none;
+}
+
+
+/* call room */
+#callroom{
+    display:none;
+}
+.call-us-wrapper{
+    margin: 0 auto;
+    margin-top: 1rem;
+    height: auto;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color:#ffffff;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    position: relative;
+
+}
+.call-logo-fixed{
+    width: 6rem;
+    height: 6rem;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    background-image: url('../media/telephone2.png');
+    background-size: 100% 100%;
+}
+.call-heading{
+    padding-top: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    font-weight: 400;
+}
+.our-contact{
+    padding-top: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    font-weight: 500;
+    color: #4e8300;
+    text-shadow: 0px 0px 1px rgb(146, 146, 146);
+}
+.btn-call-us-fixed{
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.cut-call-div{
+    position: absolute;
+    font-size: 1.3rem;
+    color: red;
+    top:0.5rem;
+    cursor: pointer;
+    right:1rem;
+}
+
+/* Location Room */
+
+
+
+#locationRoom{
+    display:none;
+}
+.location-main-wrapper{
+    width: 40%;
+    height: auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    position: fixed;
+    top:1rem;
+    left:30%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 5px;
+}
+.visit-text{
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 90%;
+    line-height:2rem;
+    text-align: center;
+}
+.storename-text{
+    color: red;
+}
+.iframe-fixed{
+    width: 100%;
+    height: 13rem;
+    background-color: #d3d3d3;
+    margin-top: 0.5rem;
+}
+.shop-address-fixed{
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+.btn-fixed-location{
+    display: block;
+    margin:0 auto;
+    text-align: center;
+    margin-top: 1rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.cut-sign-for-location{
+    position: absolute;
+    color:rgb(255, 0, 0);
+    right:1rem;
+    top:0.1rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
 @media screen and (max-width:1240px){
     .category-wrapper{
         width: 85%;
     }
     .offer-line{
         font-size: 2.2rem;
+    }
+    .chat-inner-wrapper{
+        width: 50%;
+        position: relative;
+        left: auto;
+        top:1rem;
+        margin: 0 auto;
+    }
+    .call-us-wrapper{
+        width: 60%;
+    }
+    .location-main-wrapper{
+        position: relative;
+        left: auto;
+        top: auto;
+        margin: 0 auto;
+        margin-top: 1rem;
+        width: 50%;
     }
 }
 
@@ -941,6 +1125,12 @@ textarea:focus{
     }
     .contact-source-card{
         width: 31%;
+    }
+    .call-us-wrapper{
+        width: 65%;
+    }
+    .location-main-wrapper{
+        width: 70%;
     }
 }
 
@@ -1106,6 +1296,19 @@ textarea:focus{
     }
     .footer-part-2{
         margin-bottom: 3rem;
+    }
+    .chat-inner-wrapper{
+        width: 60%;
+        position: relative;
+        left: auto;
+        top:1rem;
+        margin: 0 auto;
+    }
+    .call-us-wrapper{
+        width: 75%;
+    }
+    .location-main-wrapper{
+        width: 80%;
     }
 }
 
@@ -1298,6 +1501,19 @@ textarea:focus{
     }
     .footer-part-2{
         margin-bottom: 3rem;
+    }
+    .chat-inner-wrapper{
+        width: 70%;
+        position: relative;
+        left: auto;
+        top:1rem;
+        margin: 0 auto;
+    }
+    .call-us-wrapper{
+        width: 80%;
+    }
+    .location-main-wrapper{
+        width: 90%;
     }
 }
 
@@ -1627,6 +1843,38 @@ textarea:focus{
     .footer-part-2{
         margin-bottom: 4rem;
         padding-left: 5%;
+    }
+    .call-us-wrapper{
+        width: 90%;
+    }
+    .call-heading{
+        width: 92%;
+    }
+    .location-main-wrapper{
+        width: 90%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .chat-inner-wrapper{
+        width: 96%;
+        position: relative;
+        left: auto;
+        top:0.5rem;
+        margin: 0 auto;
+    }
+    .call-us-wrapper{
+        width: 96%;
+        margin-top: 0.5rem;
+    }
+    .location-main-wrapper{
+        width: 96%;
+        margin-top: 0.5rem;
+    }
+    .iframe-fixed{
+        height: 15rem;
     }
 }
 @media screen and (max-width:360px) {

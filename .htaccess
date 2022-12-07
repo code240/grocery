@@ -1,8 +1,16 @@
 RewriteEngine on
 
-RewriteRule ^Shop shop.html [NC,L]
-RewriteRule ^Home index.html [NC,L]
-RewriteRule ^Product product.html [NC,L]
-RewriteRule ^Contact contact.html [NC,L]
-RewriteRule ^About about.html [NC,L]
+RewriteRule ^Shop shop.php [NC,L]
+RewriteRule ^Home index.php [NC,L]
+RewriteRule ^Product product.php [NC,L]
+RewriteRule ^Contact contact.php [NC,L]
+RewriteRule ^About about.php [NC,L]
+RewriteRule ^Pannel/Pannel-Home Pannel/PannelHome.php [NC,L]
 
+RewriteRule ^Pannel/Login Pannel/index.php [NC,L]
+RewriteRule ^Pannel/Product Pannel/Product.php [NC,L]
+RewriteRule ^Pannel/Messages Pannel/Messages.php [NC,L]
+RewriteRule ^Pannel/Setting Pannel/setting.php [NC,L]
+RewriteRule ^Pannel/Category Pannel/category.php [NC,L]
+RewriteRule ^Pannel/Offer Pannel/offer.php [NC,L]
+RewriteRule ^Pannel/Add Pannel/Add-Product.php [NC,L]

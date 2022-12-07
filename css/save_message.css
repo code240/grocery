@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+}
+body{
+    background-color: aliceblue;
+}
+h1{
+    padding-top: 2rem;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(0, 0, 196);
+}
+.btn-home{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    margin-top: 2rem;
+}
+.loading-div{
+    width: 9rem;
+    height: 10rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    background-image: url('../media/Pulse.gif');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* border: 1px solid red; */
+}
